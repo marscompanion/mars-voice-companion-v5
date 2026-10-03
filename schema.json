@@ -57,9 +57,17 @@
         "@type": "Organization",
         "@id": "https://teduza.com/#organization"
       },
+      "publishingPrinciples": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Verification Transaction (TON Blockchain)",
+          "url": "https://tonviewer.com/transaction/5390dc30ec017efef4b7f5eef29b04e4df359e6e7ccd392389d81470d5981403"
+        }
+      ],
       "sameAs": [
         "https://www.wikidata.org/wiki/Q141447666",
         "https://share.google/RIxbaHEZ8d3YlehsW",
+        "https://tonviewer.com/UQBuL7siaQAF8GUFwHcAleftH4V7n2GHEbN1-cVyqwS3mZBp",
         "https://github.com/marscompanion"
       ]
     },
