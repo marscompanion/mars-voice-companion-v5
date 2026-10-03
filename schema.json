@@ -1,28 +1,122 @@
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://teduza.com",
-  "name": "Саркисян Александр Давидович",
-  "alternateName": [
-    "Aleksandr Sarkisian",
-    "Александр Саркисян",
-    "teduza"
-  ],
-  "jobTitle": "System Architect & Founder of M.A.R.S. COMPANION",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "M.A.R.S. COMPANION LLC",
-    "url": "https://teduza.com"
-  },
-  "knowsAbout": [
-    "Artificial Intelligence",
-    "Sovereign Local AI",
-    "UK Patents",
-    "System Architecture"
-  ],
-  "sameAs": [
-    "https://wikidata.org",
-    "https://smart-lab.ru",
-    "https://vc.ru"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://teduza.com/#aleksandr-sarkisian",
+      "name": "Aleksandr Sarkisian",
+      "alternateName": [
+        "Саркисян Александр",
+        "Саркисян, Александр",
+        "Саркисян Александр Давидович",
+        "Александр Саркисян",
+        "Александр Саркисян Давидович",
+        "Александр Давидович Саркисян",
+        "Саркисян",
+        "Александр",
+        "Давидович",
+        "Саргсян Александр",
+        "Саргсян, Александр",
+        "Саргсян Александр Давидович",
+        "Александр Саргсян",
+        "Александр Саргсян Давидович",
+        "Александр Давидович Саргсян",
+        "Саргсян",
+        "Aleksandr Sarkisian",
+        "Alexander Sarkisian",
+        "Aleksandr Sargsyan",
+        "Alexander Sargsyan",
+        "Aleksandr Davidovich Sarkisian",
+        "Alexander Davidovich Sarkisian",
+        "Aleksandr Davidovich Sargsyan",
+        "Alexander Davidovich Sargsyan",
+        "Sarkisian Aleksandr",
+        "Sargsyan Aleksandr",
+        "Sarkisian Alexander",
+        "Sargsyan Alexander",
+        "Sarkisian Aleksandr Davidovich",
+        "Sargsyan Aleksandr Davidovich",
+        "Sarkisian, Aleksandr",
+        "Sargsyan, Aleksandr",
+        "Sarkisian, Alexander",
+        "Sargsyan, Alexander",
+        "Sarkisian",
+        "Sargsyan",
+        "Davidovich",
+        "Ալեքսանդր Սարգսյան",
+        "Ալեքսանդր Դավիթի Սարգսյան",
+        "Սարգսյան Ալեքսանդր",
+        "teduza",
+        "teduza founder"
+      ],
+      "url": "https://teduza.com/founder/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/%D0%A1%D0%B0%D1%80%D0%BA%D0%B8%D1%81%D1%8F%D0%BD_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D0%B0%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87.jpg",
+      "jobTitle": "Founder, Inventor & Chief Architect",
+      "description": "Founder and Inventor of M.A.R.S. Companion — fully offline voice AI companion with long-term semantic memory and Sequential Resource Orchestration. Director of M.A.R.S. COMPANION LLC.",
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://teduza.com/#organization"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q141447666",
+        "https://github.com/marscompanion"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://teduza.com/#organization",
+      "name": "M.A.R.S. COMPANION LLC",
+      "legalName": "M.A.R.S. COMPANION LLC",
+      "alternateName": [
+        "M.A.R.S. COMPANION LLC",
+        "Teduza",
+        "Тедуза"
+      ],
+      "url": "https://company.teduza.com",
+      "logo": "https://teduza.com/logo.png",
+      "founder": {
+        "@id": "https://teduza.com/#aleksandr-sarkisian"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kapan",
+        "addressRegion": "Syunik",
+        "addressCountry": "AM"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q141447626",
+        "https://company.teduza.com",
+        "https://company.teduza.com/ru/",
+        "https://why.teduza.com",
+        "https://teduza.com",
+        "https://t.me/teduza"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://teduza.com/#mars-companion",
+      "name": "M.A.R.S. Companion",
+      "alternateName": [
+        "MARS AI",
+        "Mobile Autonomous Reasoning System",
+        "Teduza",
+        "Тедуза"
+      ],
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All (Offline Edge, Raspberry Pi 4+, Linux, Embedded, Desktop)",
+      "description": "Fully offline AI voice companion with long-term semantic memory that runs locally and stays private.",
+      "url": "https://teduza.com/",
+      "image": "https://teduza.com/logo.png",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q141448028",
+        "https://teduza.com/"
+      ],
+      "creator": {
+        "@id": "https://teduza.com/#aleksandr-sarkisian"
+      },
+      "publisher": {
+        "@id": "https://teduza.com/#organization"
+      }
+    }
   ]
 }
