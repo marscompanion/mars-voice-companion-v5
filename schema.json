@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://teduza.com",
+  "name": "Саркисян Александр Давидович",
+  "alternateName": [
+    "Aleksandr Sarkisian",
+    "Александр Саркисян",
+    "teduza"
+  ],
+  "jobTitle": "System Architect & Founder of M.A.R.S. COMPANION",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "M.A.R.S. COMPANION LLC",
+    "url": "https://teduza.com"
+  },
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "Sovereign Local AI",
+    "UK Patents",
+    "System Architecture"
+  ],
+  "sameAs": [
+    "https://wikidata.org",
+    "https://smart-lab.ru",
+    "https://vc.ru"
+  ]
+}
